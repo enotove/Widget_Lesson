@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     QStringList sList{"1 предмет", "2 предмет", "3 предмет"};
     ui->comboBox->addItems(sList);
     ui->pushButton->setText("Кнопка");
+    ui->pushButton->setCheckable(true);
     ui->progressBar->setMaximum(maxValueProgressBar);
     ui->progressBar->setMinimum(0);
     ui->progressBar->setValue(valueProgressBar);
